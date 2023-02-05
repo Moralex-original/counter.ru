@@ -1,0 +1,68 @@
+@font-face {
+   font-family: "RobotoSlab-Medium";
+   font-style: normal;
+   font-weight: 500;
+   src: url(/fonts/static/RobotoSlab-Medium.ttf);
+}
+
+body {
+   font-family: "RobotoSlab-Medium", sans-serif;
+}
+
+.topmenu li {
+   display: inline-block;
+   text-align: center;
+   min-width: 90px;
+}
+
+.ul {
+   list-style: none;
+}
+
+.li {
+   list-style: none;
+}
+
+.topmenu {
+   font: 15px "RobotoSlab-Medium";
+   list-style: none;
+   padding: 0;
+}
+
+.icon-home {
+   display: inline-block;
+   width: 64px;
+   height: 64px;
+   background-image: url(/img/home.png);
+}
+
+.icon-database {
+   display: inline-block;
+   width: 64px;
+   height: 64px;
+   background-image: url(/img/database.png);
+}
+
+.icon-settings {
+   display: inline-block;
+   width: 64px;
+   height: 64px;
+   background-image: url(/img/settings.png);
+}
+
+.icon-tasks {
+   display: inline-block;
+   width: 64px;
+   height: 64px;
+   background-image: url(/img/tasks.png);
+}
+
+::marker {
+   unicode-bidi: isolate;
+   font-variant-numeric: tabular-nums;
+   text-transform: none;
+   text-indent: 0px !important;
+   text-align: start !important;
+   text-align-last: start !important;
+   list-style: none;
+}
