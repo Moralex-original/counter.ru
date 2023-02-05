@@ -34,28 +34,28 @@ body {
    display: inline-block;
    width: 64px;
    height: 64px;
-   background-image: url(/img/home.png);
+   background-image: url(img/home.png);
 }
 
 .icon-database {
    display: inline-block;
    width: 64px;
    height: 64px;
-   background-image: url(/img/database.png);
+   background-image: url(img/database.png);
 }
 
 .icon-settings {
    display: inline-block;
    width: 64px;
    height: 64px;
-   background-image: url(/img/settings.png);
+   background-image: url(img/settings.png);
 }
 
 .icon-tasks {
    display: inline-block;
    width: 64px;
    height: 64px;
-   background-image: url(/img/tasks.png);
+   background-image: url(img/tasks.png);
 }
 
 .icon-topmenu {
