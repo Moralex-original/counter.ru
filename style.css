@@ -59,9 +59,20 @@ body {
    background-image: url(img/tasks.png);
 }
 
+.title_database_CCFP{
+   margin: 5px;
+}
+
+.database_CCFP {
+   margin: 5px;
+}
+
 .CCFP {
-   width: 80px;
-   height: 30px;
+   margin-left: auto;
+   margin-right: auto;
+   width: 90px;
+   height: 32px;
+   font-size: 14px;
 }
 
 .icon-topmenu {
