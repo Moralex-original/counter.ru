@@ -59,6 +59,11 @@ body {
    background-image: url(img/tasks.png);
 }
 
+.CCFP {
+   width: 80px;
+   height: 30px;
+}
+
 .icon-topmenu {
    text-decoration: none;
    color: black;
