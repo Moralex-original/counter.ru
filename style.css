@@ -88,17 +88,18 @@ body {
    color: rgb(19, 185, 74);
 }
 
-footer {
-   position: fixed;
-   left: 0px;
-   bottom: 0px;
-   height: 80px;
-   width: 100%;
-   margin-bottom: 3%;
-
-}
-
 .pip {
    color: blue;
 }
 
+/* Footer */
+
+footer {
+   position: fixed;
+   left: 0px;
+   bottom: 0px; /* Расстояние от нижнего края окна браузера */
+   height: 100px;
+   width: 100%;
+   padding: 0%;
+   background: #37b2d1; /* Цвет фона */
+}
