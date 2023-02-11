@@ -6,7 +6,7 @@ function changeColor() {
   var op; 
 
   // функция расчёта
-  function func(documented.getElementById("result").innerHTML = result;) {
+  function func() {
  
   	// переменная для результата
     var result;
@@ -28,6 +28,7 @@ function changeColor() {
         result = number_1 / number_2;
         break;
     }
+    documented.getElementById("result").innerHTML = result;
   
 
   }
