@@ -3,32 +3,31 @@ function changeColor() {
 }
 
 // переменная, в которой хранится выбранное математическое действие
-  var op; 
+	  var op; 
 
-  // функция расчёта
-  function func() {
- 
-  	// переменная для результата
-    var result;
-    // получаем первое и второе число
-    var number_1 = Number(document.getElementById("number_1").value);
-    var number_2 = Number(document.getElementById("number_2").value);
-    // смотрим, что было в переменной с действием, и действуем исходя из этого
-    switch (op) {
-      case '+':
-        result = number_1 + number_2;
-        break;
-      case '-':
-        result = number_1 - number_2;
-        break;
-      case '*':
-        result = number_1 * number_2;
-        break;
-      case '/':
-        result = number_1 / number_2;
-        break;
-    }
-    documented.getElementById("result").innerHTML = result;
-  
+	  // функция расчёта
+	  function func() {
+	  	// переменная для результата
+	    var result;
+	    // получаем первое и второе число
+	    var num1 = Number(document.getElementById("num1").value);
+	    var num2 = Number(document.getElementById("num2").value);
+	    // смотрим, что было в переменной с действием, и действуем исходя из этого
+	    switch (op) {
+	      case '+':
+	        result = num1 + num2;
+	        break;
+	      case '-':
+	        result = num1 - num2;
+	        break;
+	      case '*':
+	        result = num1 * num2;
+	        break;
+	      case '/':
+	        result = num1 / num2;
+	        break;
+	    }
 
-  }
+	    // отправляем результат на страницу
+	    document.getElementById("result").innerHTML = result;
+	  }
