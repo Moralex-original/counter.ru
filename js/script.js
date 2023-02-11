@@ -27,5 +27,6 @@ function changeColor() {
         result = number_1 / number_2;
         break;
     }
+    document.getElementById("result").innerHTML = result;
 
   }
