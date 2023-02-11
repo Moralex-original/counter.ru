@@ -18,21 +18,28 @@
 <body> <!-- Основная часть документа (отображаемая часть) -->
    <header>
    </header>
-   <div>
       <p>Калькулятор</p>
-          <input id="number_1"/>
-          <input id="number_2"/>
-          <br>
-      <div id="operator_btns">
-          <button id="plus" onclick="op='+'">+</button>
-          <button id="minus" onclick="op='-'">-</button>
-          <button id="times" onclick="op='*'">x</button>
-          <button id="divide" onclick="op='/'">:</button>
-      </div>
-      <br>
-      <button onclick="func()">Посчитать</button>
-      <p id="result"></p>
-   </div>
+          <!-- поле ввода первого числа -->
+	<input id="num1" />
+
+	<!-- блок с кнопками -->
+	<div id="operator_btns">
+	  <button id="plus" onclick="op='+'">+</button>
+	  <button id="minus" onclick="op='-'">-</button>
+	  <button id="times" onclick="op='*'">x</button>
+	  <button id="divide" onclick="op='/'">:</button>
+	</div>
+
+	<!-- поле ввода второго числа -->
+	<input id="num2" />
+	<br>
+
+	<!-- кнопка для расчётов -->
+	<button onclick="func()">Посчитать</button>
+
+	<!-- здесь будет результат -->
+	<p id="result"></p>
+
    <p id="pip">Lorem ipsum dolor sit amet.</p>
    <button onclick="changeColor()">Смена цвета</button>
    <footer>
